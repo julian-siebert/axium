@@ -1,0 +1,32 @@
+{
+  name: "Axium - Modular Show Control for the Modern Stage",
+  image: "mcr.microsoft.com/devcontainers/base:bullseye",
+  customizations : {
+    jetbrains : {
+      backend : "IntelliJ",
+      plugins: [
+        "com.jetbrains.rust",
+        "org.toml.lang",
+        "com.intellij.tailwindcss",
+        "com.nekofar.milad.intellij.tauri",
+      ]
+    }
+  },
+  features: {
+    "ghcr.io/devcontainers/features/git" : {},
+    "ghcr.io/devcontainers/features/rust:1": {
+      "profile": "default",
+      "targets": "wasm32-unknown-unknown,aarch64-linux-android,armv7-linux-androideabi,i686-linux-android,x86_64-linux-android"
+    },
+    "ghcr.io/devcontainers/features/node:1": {}
+  },
+  forwardPorts: [8080,8921],
+  portsAttributes: {
+    "8921": {
+      label: "Axium protocol",
+    },
+    "8080": {
+      label: "Webinterface "
+    }
+  }
+}
