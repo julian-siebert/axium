@@ -1,0 +1,10 @@
+[package]
+name = "axium-tui"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+clap.workspace = true
+tokio.workspace = true
+anyhow.workspace = true

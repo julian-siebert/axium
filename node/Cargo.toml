@@ -1,0 +1,11 @@
+[package]
+name = "axium-node"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+axium-core = { path = "../core" }
+tokio.workspace = true
+serde.workspace = true
+toml.workspace = true

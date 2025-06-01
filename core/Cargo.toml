@@ -1,0 +1,11 @@
+[package]
+name = "axium-core"
+version.workspace = true
+edition.workspace = true
+authors.workspace = true
+
+[dependencies]
+axium-net = { path = "../net" }
+tokio.workspace = true
+serde.workspace = true
+bincode.workspace = true
