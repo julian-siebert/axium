@@ -1,6 +1,6 @@
 {
   name: "Axium - Modular Show Control for the Modern Stage",
-  image: "ghcr.io/devcontainers/templates/ubuntu:1.3.2",
+  image: "ubuntu:latest",
   customizations : {
     jetbrains : {
       backend : "IntelliJ",
