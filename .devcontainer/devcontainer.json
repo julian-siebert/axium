@@ -13,7 +13,6 @@
     }
   },
   features: {
-    "ghcr.io/devcontainers/features/git" : {},
     "ghcr.io/devcontainers/features/rust:1": {
       "profile": "default",
       "targets": "wasm32-unknown-unknown,aarch64-linux-android,armv7-linux-androideabi,i686-linux-android,x86_64-linux-android"
