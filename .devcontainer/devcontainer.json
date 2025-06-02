@@ -27,5 +27,6 @@
     "8080": {
       label: "Webinterface "
     }
-  }
+  },
+  "remoteUser": "ubuntu"
 }
